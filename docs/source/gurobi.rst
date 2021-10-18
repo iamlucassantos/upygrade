@@ -2,9 +2,9 @@ Gurobi
 ======
 
 .. autosummary::
-   :toctree: generated
+   :toctree: _autosummary
+   :template: custom-module-template.rst
+   :recursive:
 
-    gurobi.main
+   gurobi.main
 
-.. automodule:: gurobi.main
-    :members:

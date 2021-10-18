@@ -1,8 +1,3 @@
-"""
-Created on 15/10/2021
-
-@author: Lucas V. dos Santos
-"""
 import os
 
 try:
@@ -15,6 +10,9 @@ except ImportError:
 
 
 def str_to_lp(text):
+    """
+    Converts an lp solve string into a gurobipy model.
+    """
     def ident(string):
         return " " + string
 
@@ -51,6 +49,16 @@ def str_to_lp(text):
 
 
 def read(text):
+    """
+       Return a list of random ingredients as strings.
+
+       :param kind: Optional "kind" of ingredients.
+       :type kind: list[str] or None
+       :raise lumache.InvalidKindError: If the kind is invalid.
+       :return: The ingredients list.
+       :rtype: list[str]
+
+       """
     cwd = os.getcwd()
     if '.lp' in text:
         m = gp.read(text)

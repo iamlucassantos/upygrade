@@ -6,5 +6,5 @@ Gurobi
    :template: custom-module-template.rst
    :recursive:
 
-   gurobi.main
+    gurobi.main
 

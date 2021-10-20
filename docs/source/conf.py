@@ -18,7 +18,7 @@ import sys
 # sys.path.insert(0, os.path.abspath('../..'))
 # sys.path.insert(0, os.path.abspath('..'))
 current_dir = os.path.dirname(__file__)
-target_dir = os.path.abspath(os.path.join(current_dir, "../../src"))
+target_dir = os.path.abspath(os.path.join(current_dir, "../../src/upygrade"))
 sys.path.insert(0, target_dir)
 # sys.path.insert(0, os.path.abspath('..'))
 # sys.path.insert(0, os.path.abspath('../..'))
@@ -74,5 +74,10 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_logo = "Upygrade-bw.png"
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False,
+}
 
 autosummary_generate = True

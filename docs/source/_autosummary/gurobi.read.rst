@@ -1,6 +1,6 @@
-gurobi.main
+gurobi.read
 ===========
 
 .. currentmodule:: gurobi
 
-.. autofunction:: main
+.. autofunction:: read

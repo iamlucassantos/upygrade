@@ -6,10 +6,22 @@
 Welcome to upygrade's documentation!
 ====================================
 
+Upygrade is package that add functionalities to other python packages.
+
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: FIRST STEPS
 
+   Install
+
+.. autosummary::
+   :toctree: _autosummary
+   :caption: MODULES
+   :template: custom-module-template.rst
+   :recursive:
+
+   printer
    gurobi
 
 

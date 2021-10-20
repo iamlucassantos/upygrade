@@ -1,7 +1,7 @@
-gurobi.main.Model
-=================
+gurobi.Model
+============
 
-.. currentmodule:: gurobi.main
+.. currentmodule:: gurobi
 
 .. autoclass:: Model
    :members:

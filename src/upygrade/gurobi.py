@@ -1,3 +1,7 @@
+"""Module that adds functionalities to gurobipy
+
+To use this module, gurobipy must be installed.
+"""
 import os
 
 try:

@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to upygrade's documentation!
+Upygrade: documentation
 ====================================
 
 Upygrade is package that add functionalities to other python packages.
